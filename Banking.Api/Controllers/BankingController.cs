@@ -24,6 +24,7 @@ namespace Banking.Api.Controllers
         {
             return Ok(_accountService.GetAccounts());
         }
+        
 
         [HttpPost]
         public IActionResult Post([FromBody] AccountTransfer accountTransfer) 
